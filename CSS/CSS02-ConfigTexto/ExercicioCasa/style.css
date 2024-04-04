@@ -1,0 +1,23 @@
+/* Aqui tem um comentario (comentario em mais de uma linha)*/
+
+body{
+    background-color: rgb(rgba(0, 255, 221, 0.733), green, blue);
+    h1{
+        color: rgb(1, 46, 7);
+        font-size: 85px;
+    }
+    p{
+        color: rgba(131, 0, 103, 0.493);
+        font-size: 2em;
+    }
+    font-family: "Pacifico", cursive;
+    font-size: 50px;
+    }
+    img{
+        height: 200px;
+        width: 200px;
+    }
+    img{
+        display: block;
+        margin:auto
+    }
