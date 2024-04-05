@@ -1,21 +1,24 @@
 /* Aqui tem um comentario (comentario em mais de uma linha)*/
 
 body{
-    background-color: rgb(rgba(0, 255, 221, 0.733), green, blue);
+    background-color: rgb(rgb(248, 4, 4), green, blue)
     h1{
-        color: rgb(1, 46, 7);
-        font-size: 85px;
+        color: rgb (105, 252, 252);
+        text-shadow: 2px 2px 2px blue; 
+        font-family: "teko", Arial; 
     }
     p{
-        color: rgba(131, 0, 103, 0.493);
+        color: rgb(0, 0, 0);
         font-size: 2em;
+        text-shadow: 2px 2px 2px blue;
     }
-    font-family: "Pacifico", cursive;
+    font-style: italic;
     font-size: 50px;
     }
     img{
-        height: 200px;
-        width: 200px;
+        height: 600px;
+        width: 30%;
+        box-shadow: 10px 10px 10px 10px red;
     }
     img{
         display: block;
