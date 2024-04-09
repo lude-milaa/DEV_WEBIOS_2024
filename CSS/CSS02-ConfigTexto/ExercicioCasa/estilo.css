@@ -1,0 +1,9 @@
+body {font-family: "Roboto Mono", monospace;
+      font-weight: 700;
+      background-color: brown;}
+
+    h1 {color: aqua;
+        text-shadow: 3px 3px 3px;}
+
+    img {height: 300px;
+         width: 500px;}
