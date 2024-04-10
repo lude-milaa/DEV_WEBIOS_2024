@@ -1,0 +1,26 @@
+body{
+    background-image: url("https://picsum.photos/id/112/600/400");
+    background-repeat: no-repeat; 
+    background-size: 100%; 
+    background-attachment: scroll;
+}
+
+#primeiroParagrafo{
+    border: 2px solid rgb(245, 0, 0); 
+    border-width: 2px;
+    border-style: dashed;
+    border-radius: 10px 5px 0 80px;
+} 
+
+img{
+    border-radius: 10px
+}
+
+#imagem{
+    border: 10px solid rgb(255, 255, 255);
+}
+
+figcaption
+{
+    background-color: antiquewhite;
+}   
