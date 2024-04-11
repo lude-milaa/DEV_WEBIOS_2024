@@ -1,0 +1,14 @@
+#secao{
+    border: 2px solid red;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;  
+    padding-left: 10px; 
+
+    /*
+    padding: 10px, 50px, 20px, 50px; igual o primeiro porém em abreviação!!
+
+    padding: 10px (equivale ao mesmo tamanho de margem para todos)
+    
+    */
+}
