@@ -1,14 +1,23 @@
+body{
+    margin-left: 0;
+    margin-right: 0;
+    width: 80%;
+}
 #secao{
     border: 2px solid red;
     padding-top: 10px;
     padding-right: 10px;
     padding-bottom: 10px;  
     padding-left: 10px; 
-
-    /*
-    padding: 10px, 50px, 20px, 50px; igual o primeiro porém em abreviação!!
-
-    padding: 10px (equivale ao mesmo tamanho de margem para todos)
+}
+#secao2{
+    border: 2px solid rgb(6, 0, 189);
+    padding: 10px;
+    margin: 20px 0;
     
-    */
+}
+#secao3{
+    border: 2px solid rgb(9, 189, 0);
+    padding: 10px;
+    margin-top: 20px;
 }
