@@ -1,14 +1,10 @@
 img{
-    width: 400px;
-    clear: left;
-    
+    width: 400px; 
 }
-
 #paragrafo{
     width: 400px;
     float: right;
 }
-
 #paragrafo2{
     width: 400px;
     float: right;
