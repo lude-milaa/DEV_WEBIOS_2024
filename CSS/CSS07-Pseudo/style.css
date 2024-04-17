@@ -1,6 +1,38 @@
-div{
-    border: 2px solid blue;
-}
+/* 
 p:first-child{
     background-color: red 
-};
+}; */
+#botao{
+    border: 3px solid pink;
+    background-color: red;
+    border-radius: 5px;
+}
+
+#botao:hover{
+    color: chocolate;
+    background-color: blue;
+    font-size: 100px;
+}
+
+#paragrafohover:hover{
+    background-color: rgb(253, 0, 215);
+    color: aquamarine;
+}
+
+#titulo2:hover{
+    font-family: "Roboto Slab", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+#imagem:hover{
+box-shadow: 10px 10px 10px
+#1E90FF;
+width: 700px;
+height: 700px;
+}
+
+#pseudo::before{
+    color: teal;
+    content: 'utilizando before-';
+}
