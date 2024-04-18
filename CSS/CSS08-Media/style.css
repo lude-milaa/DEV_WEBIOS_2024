@@ -9,10 +9,24 @@ img{
         width: 200px;
     }
 
-
     img:hover{
-        border: 1px solid black;
+        border: 1px solid rgb(251, 239, 3);
         border-radius: 5px;
         box-shadow: 10px 10px 10px;
        }
+}
+
+@media(min-width: 452px){
+    body{
+        background-color: rgb(0, 0, 0);
+    }
+}
+
+img{
+    width: 50px;
+    border: 2px greenyellow;
+}
+
+img:hover{
+    border-radius: 3px;
 }
