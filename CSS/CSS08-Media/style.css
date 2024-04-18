@@ -2,7 +2,17 @@ img{
     width: 700px;
 }
 @media(max-width:450px){
-       img{
+      body{
+        background-color: aqua;
+      } 
+    img{
         width: 200px;
+    }
+
+
+    img:hover{
+        border: 1px solid black;
+        border-radius: 5px;
+        box-shadow: 10px 10px 10px;
        }
 }
