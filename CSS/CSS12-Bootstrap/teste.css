@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    
+}
+
+#titulo{
+    background-color: blue;
+    text-align: center;
+}
+
+#navegação{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;  /* ou space*/
+}
+
+
+
+
+
+a{
+    border: 1px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    background-color: darkcyan;
+}
