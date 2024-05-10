@@ -43,7 +43,7 @@ var texto2 = "Reais"
 console.log(texto + numero1 + texto2)
 //concatenar = é possivel concatenar strings ou concatenar variaveis
 
-console.clear()
+console.clear() //para apagar
 
 //valores booleanos
 
@@ -57,3 +57,65 @@ console.log(num1 == num2)
 var teste
 
 console.log(teste)
+
+//operadores
+
+var operador1 = 8;
+var operador2 = null;
+
+console.log(operador1 * operador2)
+
+var operador3 = "5"
+var operador4 = 1
+
+console.log(operador3 - operador4)
+
+var operador5 = "5"
+var operador6 = 1
+
+console.log(operador5 + operador6)
+
+var operador7 = "five"
+var operador8 = 2
+
+console.log(operador7 * operador8)
+
+console.clear()
+
+var valor1 = 2
+var valor2 = 2
+var resultado = valor1 % valor2
+
+console.log(resultado)
+
+console.clear()
+
+var compara = "2" > 2
+var teste = !compara
+console.log(teste)
+
+console.log("variavel teste" + teste)
+console.log("variavel compara" + compara)
+
+
+//se o valor é menor ou igual
+//! é diferente
+//compara se é diferente ou igual
+// compara o valor de dentro apenas 
+//compara o valor e tipo
+
+console.clear()
+
+let valor3 = 4 
+let valor4 = 6
+let resultado1 =  valor3 < valor4 || valor3 == valor4
+//true E false == false
+// true E true == true
+// false E false == false
+// true OU false == true
+
+console.log(resultado1)
+
+var valor5 = 5
+
+console.log(typeof valor5)
