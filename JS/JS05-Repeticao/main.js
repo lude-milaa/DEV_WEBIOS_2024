@@ -25,7 +25,7 @@ while(contador <= 10){   // while verifica se é verdadeiro
 }
 
 for(var contador = 10; contador < 10 && contador >= 5 || contador == 90; contador ++){
-
+    console.log(contador + "ainda é menor que 10")
 }
 
 
