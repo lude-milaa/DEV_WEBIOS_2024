@@ -41,8 +41,8 @@ class conta_bancaria {
 
 // contas
 const conta_poupanca = new conta_bancaria("Lude Mila", 20, 4500, "Feminino", "0102", "Poupança", "542600");
-const conta_corrente = new conta_bancaria("Lude MIla", 20, 2300, "Feminino", "2024", "Corrente", "704624");
-const conta_estudante = new conta_bancaria("Lude Mila", 20, 1500, "Feminino", "3332", "Estudante", "134245");
+const conta_corrente = new conta_bancaria("João", 24, 2300, "Masculino", "2024", "Corrente", "704624");
+const conta_estudante = new conta_bancaria("Maria", 18, 1500, "Feminino", "3332", "Estudante", "134245");
 
 // taxas
 conta_poupanca.conta_poupanca(1000, 3);
