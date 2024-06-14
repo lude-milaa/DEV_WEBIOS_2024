@@ -3,13 +3,9 @@ function getImage(e) {
     // Busca a url da API no HTML 
     let url_api = document.getElementById('url_api').innerText; 
     // console.log(url_api); 
- 
     // Função fetch para buscar dados na API 
-    fetch(url_api, { 
-        method: 'GET', 
-    }) 
-        .then((response) => { 
-            return response.json(); 
+    fetch(url_api) .then((response) => { 
+            return response.json();  // receber o JSON
         }) 
         .then((data) => { 
             // console.log(data); 
@@ -25,3 +21,9 @@ function getImage(e) {
             document.querySelector('#imagem_aqui').innerHTML = imagem; 
         }); 
 }
+
+// stringify >> pega um JSON e transforma em um objeto 
+// JSON >> Transforma um objeto em formato JSON
+
+// fetch(url).then(receber o json).then(tratar o json e mostrar as informações em tela para o usuario).catch
+//(chatch é para tratar erros retornados pela API)
